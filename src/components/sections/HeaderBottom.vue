@@ -51,6 +51,7 @@ export default {
   margin-left: 62.5rem;
   margin-top: 1.25rem;
   font-size: 18px;
+  position: absolute;
 }
 ul {
   display: flex;
@@ -63,7 +64,10 @@ ul {
 }
 .green-touch {
   background-color: var(--button-color);
-  padding: 0.3125rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-bottom: 5px;
 }
 </style>
