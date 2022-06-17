@@ -53,6 +53,7 @@ export default {
 .service {
   background-color: var(--jumbo-green-bg);
   padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
 
   .row {
     display: flex;
