@@ -2,13 +2,15 @@
   <div class="news container">
     <div class="top">
       <h6>OUR EDITORIAL CONTENT</h6>
-      <h1>Latest News</h1>
+      <h1>
+        <div class="mark">Latest</div>
+        News
+      </h1>
 
-      <span>
+      <div class="content">
         Every week we publish content about what is best in the business world
-
         <div class="green-touch">SEE ALL</div>
-      </span>
+      </div>
     </div>
     <div class="bot">
       <div class="uno">
@@ -46,16 +48,22 @@ export default {
 .news {
   padding-top: 4.6875rem;
   padding-bottom: 4.6875rem;
+
+  .mark {
+    background-color: var(--words-color-bg);
+    color: var(--third-text-color);
+  }
 }
 h6 {
   color: var(--third-text-color);
   padding-bottom: 0.9375rem;
 }
-span {
-  display: flex;
-  flex-direction: row;
-  padding-top: 0.9375rem;
+h1 {
   padding-bottom: 0.9375rem;
+}
+.content {
+  padding-top: 0.9375rem;
+  display: inline-block;
 
   .green-touch {
     background-color: var(--button-color);
@@ -86,5 +94,18 @@ span {
   color: white;
   font-size: 24px;
   padding-bottom: 0.9375rem;
+}
+
+.green-touch {
+  background-color: var(--button-color);
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 6.875rem;
+  border-radius: 0.25rem;
+  color: white;
+  margin-left: 73.125rem;
+  margin-bottom: 2.5rem;
 }
 </style>
