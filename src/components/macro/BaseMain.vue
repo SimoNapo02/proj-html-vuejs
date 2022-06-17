@@ -3,6 +3,7 @@
     <JumboUno />
     <ServiceSec />
     <CompanySection />
+    <LogoSection />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import JumboUno from "../sections/JumboUno.vue";
 import ServiceSec from "../sections/ServiceSection.vue";
 import CompanySection from "../sections/CompanySection.vue";
+import LogoSection from "../sections/LogoSection.vue";
 
 export default {
   name: "BaseMain",
@@ -17,6 +19,7 @@ export default {
     JumboUno,
     ServiceSec,
     CompanySection,
+    LogoSection,
   },
 };
 </script>
