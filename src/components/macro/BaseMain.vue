@@ -6,6 +6,7 @@
     <LogoSection />
     <NewsSection />
     <KnowSection />
+    <ContactSection />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import CompanySection from "../sections/CompanySection.vue";
 import LogoSection from "../sections/LogoSection.vue";
 import NewsSection from "../sections/NewsSection.vue";
 import KnowSection from "../sections/KnowSection.vue";
+import ContactSection from "../sections/ContactSection.vue";
 
 export default {
   name: "BaseMain",
@@ -26,6 +28,7 @@ export default {
     LogoSection,
     NewsSection,
     KnowSection,
+    ContactSection,
   },
 };
 </script>
