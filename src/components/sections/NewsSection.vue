@@ -52,6 +52,7 @@ export default {
   .mark {
     background-color: var(--words-color-bg);
     color: var(--third-text-color);
+    width: 6.25rem;
   }
 }
 h6 {

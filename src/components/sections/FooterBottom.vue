@@ -1,18 +1,15 @@
 <template>
   <div class="footer-bottom">
     <div class="container">
-      <div class="row">
-        <div class="col">
+      <span class="row">
+        <span class="col-sx">
           <p>Enjoy the low price. We are tracking any intencion of piracy</p>
-        </div>
-        <div class="col">
+        </span>
+        <span class="col-dx">
           <p>©2020 NEXGEN is Proudly Powered by <span>Codings</span>.</p>
-        </div>
-      </div>
+        </span>
+      </span>
     </div>
-    <span class="icon"
-      ><font-awesome-icon icon="fa-solid fa-arrow-up" class="align-self-center"
-    /></span>
   </div>
 </template>
 
@@ -30,7 +27,9 @@ export default {
   color: #c0c3d0;
   display: flex;
   flex-direction: row;
-  .col {
+  .col-dx {
+    display: flex;
+    justify-content: right;
     p {
       margin-right: -1.5625rem;
     }
